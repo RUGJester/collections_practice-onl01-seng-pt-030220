@@ -10,7 +10,7 @@ def sort_array_desc(array)
   end
 end
 
-sort_array_desc([25, 7, 14]) #[25, 14, 7]
+sort_array_desc([25, 7, 14])
 
 def sort_array_char_count(array)
   array.sort do |left, right|
@@ -18,7 +18,8 @@ def sort_array_char_count(array)
   end
 end
 
-sort_array_char_count(["dogs", "cat", "Horses"]) #[
+sort_array_char_count(["dogs", "cat", "Horses"])
+
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
